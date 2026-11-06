@@ -1,0 +1,22 @@
+# Reference clone for SDK study only (VisuaSlide is a separate repo)
+_VisuaSlide_ref/
+
+# VisuaSlide runtime / Google outputs (never commit credentials or real survey data)
+.visuaslide/
+*.local.toml
+google_outputs.json
+oauth/
+client_secret*.json
+token.json
+credentials*.json
+
+# Runtime snapshots and datasets containing real responses (synthetic fixtures only)
+data/raw/
+data/*.parquet
+output/
+reports/
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
